@@ -1,0 +1,361 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ResetCSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #FFFFFF;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #FFFFFF;
+
+}
+
+.cabecalho-imagem {
+    height: 58px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #71B18A;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Banner principal */
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+.banner-principal {
+    display: flex;
+    background-color: #71B18A;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner-principal-texto-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 59px;
+    color: #FFFFFF;
+}
+
+.banner-principal-texto-subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    color: #FFFFFF;
+    padding-top: 0.0009px;
+}
+
+.banner-principal-texto-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF; 
+}
+
+.banner-principal-texto-botao {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    width: 337px;
+    height: 68px;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 32px;
+    color: #71B18A;
+}
+
+.banner-principal-imagem {
+   height: 691px;
+   padding-top: 30px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 10px;
+}
+
+.video-texto {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.video-texto-titulo {
+    padding-top: 50px;
+    color: #5D9372;
+    font-weight: 700;
+    font-size: 39px;
+    text-align: center;
+}
+
+.video-texto-subtitulo {
+    color: #71B18A;
+    font-weight: 400;
+    font-size: 39px;
+    text-align: center;
+    padding-bottom: 58px;
+}
+
+.video-youtube {
+    width: 1094px;
+    height: 616px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.divisao-linha {
+    border: 2px solid #5D9372;
+    width: 370px;
+    height: 0px;
+    border-radius: 30px;
+}
+
+.estagios {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+.estagio-titulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.estagio-titulo-titulo {
+    font-weight: 200;
+    font-size: 40px;
+    color: #5D9372;
+    text-align: center;
+    mix-blend-mode: normal;
+    font-style: normal;
+    line-height: 57px;
+    padding-bottom: 89px;
+}
+
+.estagio-u {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 43px;
+    background-color: #71B18A;
+}
+
+.estagio-d {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 43px;
+    background-color: #F5F5F5;
+}
+
+.estagio-foto {
+    width: 227px;
+    height: 200px;
+}
+
+.estagio-texto {
+    font-family: 'Montserrat', sans-serif;
+    padding: 35px;
+}
+
+.estagio-texto-titulo-u {
+    text-align: left;
+    color: #C1EDD2;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    padding-bottom: 18px;
+}
+
+.estagio-texto-titulo-d {
+    text-align: right;
+    color: #5D9372;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    padding-bottom: 18px;
+}
+
+.estagio-texto-texto-u {
+    text-align: left;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.estagio-texto-texto-d {
+    text-align: right;
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.receit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.receit-texto {
+    text-align: center;
+    padding: 84px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5D9372;
+
+}
+
+.receit-texto-titulo {
+    font-weight: 300;
+    font-size: 29px;
+    font-style: normal;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.receitas-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    
+}
+
+.receitas-flow-foto {
+    width: 227px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.receitas-texto {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.receitas-texto-titulo {
+    color: #5D9372;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 42px;
+
+}
+
+.receitas-texto-texto {
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    width: 345px;
+    height: 124px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-receita {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5D9372;
+    width: 654px;
+    height: 68px;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 32px;
+    color: #F5F5F5;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #71B18A;
+
+}
+
+.odape-flow-imagem {
+    padding: 29px;
+    Width: 233px;
+    
+}
+
+.rodape-flow-texto {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 21px;
+    width: 1200px;
+    }
+    
+.rodape-flow-texto-aviso {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+   
+
+}
